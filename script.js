@@ -35,6 +35,7 @@ function setAlarm() {
   if (alarmInput) {
     alarmTime = alarmInput + ":" + 0 + 0;
     console.log("Setting Alarm");
+    alert("Alarm Set")
   }
 }
 function checkAlarm(now) {
@@ -47,6 +48,7 @@ function checkAlarm(now) {
 function stopAlarm() {
   alarmSound.pause()
   alarmTime = null;
+  alert("Alarm Silenced")
   console.log("Alarm silence!");
   document.getElementById("alarmTime").value = "";
 }
