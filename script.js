@@ -27,8 +27,9 @@ function currentTime() {
   timeNow.textContent = displayTime;
   timeEl.appendChild(timeNow);
   checkAlarm(now);
-  setInterval(currentTime, 1000);
+  
 }
+setInterval(currentTime, 1000);
 
 function setAlarm() {
   var alarmInput = document.getElementById("alarmTime").value;
