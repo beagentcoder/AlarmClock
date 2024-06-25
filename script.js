@@ -37,8 +37,7 @@ function setAlarm() {
     console.log("Setting Alarm");
     alert("Alarm Set")
   }
-}
-function checkAlarm(now) {
+}function checkAlarm(now) {
   if (now === alarmTime) {
     alarmSound.play();
     console.log("Alarm ringing!");
