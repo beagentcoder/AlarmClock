@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm Clock</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Alarm Clock</h1>
+        </div>
+        <main>
+            <div class="image-container">
+                <img src="assets/alarm1.jpeg" alt="">
+            </div>
+            <div id="currentTime">
+
+            </div>
+            <div class="alarm">
+            <label for="alarmTime">Set Alarm Time: </label>
+            <input type="time" id="alarmTime">
+         </div>
+         <div class="buttons">
+            <button class="button-83" onclick="setAlarm()">Set Alarm</button>
+            <button class="button-83" onclick="stopAlarm()">Stop Alarm</button>
+        </div>
+        </main>
+    </div>
+
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

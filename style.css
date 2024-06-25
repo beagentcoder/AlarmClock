@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 17%, rgba(3,7,52,1) 62%, rgba(9,36,121,1) 89%);
+    color: white;
+}
+
+.header{
+    /* background-color: #1a2238; */
+    padding: 2px;
+    text-align: center;
+}
+.header h1{
+    font-size: 30px;
+    margin: 30px 0px;
+    
+}
+
+.image-container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.image-container img{
+    width: 20%;
+    /* height: 25%; */
+}
+.alarm{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.alarm input{
+    width: 10%;
+    height: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.buttons{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+#currentTime{
+    margin:30px 10px;
+    text-align: center;
+}
+
+/* CSS */
+.button-83 {
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 15px;
+  margin: 0;
+  outline: 2px solid transparent;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.button-83:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
+}
+
+.button-83:focus {
+  box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+}
